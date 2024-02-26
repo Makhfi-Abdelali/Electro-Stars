@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electro-stars</title>
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body style="background-color: rgb(140, 143, 143);">
+    <div class="top-navbar">
+        <P>BIENVENUE DANS VOTRE BOUTIQUE</P>
+        <div class=" icons ">
+            <a href="Login.html" class="" ><img src="image/register.jpg" alt="" width="18px">Se connecter</a>
+            <a href="Registrer.html" class=""><img src="image/register.jpg" alt="" width="18px">Registrer</a>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand"  href="Stars_Electro.html" id="logo"><img src="image/starshop.avif" alt="" width="30">
+                <span id="span1" >Electro-Stars</span></a>
+            <button class="navbar-toggler" type="button" role="button" data-bs-toggle="collapse" data-bs-target="#navbutton" aria-controls="navbutton">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbutton">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Stars_Electro.html" aria-current="page">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" aria-current="page">Catégories</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" type="button" role="button" aria-expanded="false" 
+                        data-bs-toggle="dropdown" aria-current="page">Produits</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(44, 44, 44);">
+                            <li><a class="dropdown-item" href="#">Smart Phone</a></li>
+                            <li><a class="dropdown-item" href="#">Smart Watch</a></li>
+                            <li><a class="dropdown-item" href="#">Camera</a></li>
+                            <li><a class="dropdown-item" href="#">PC Gaming</a></li>
+                            <li><a class="dropdown-item" href="#">Smart TV</a></li>
+                            <li><a class="dropdown-item" href="#">Fridge</a></li>
+                            <li><a class="dropdown-item" href="#">Extractor</a></li>
+                            <li><a class="dropdown-item" href="#">AC</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" aria-current="page">À-propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" aria-current="page">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex ms-auto" id="search">
+                    <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="search">
+                    <button class="btn btn-outline-success" type="submit">Recherche</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section class="home">
+        <div class="content">
+            <h1><span>Les Appareils Electroniques</span><br>
+                Jusqu'à <span id="span2">50%</span> de réduction
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Lorem ipsum dolor sit amet consectetur</p>
+            <div class="btn"> <button>Achetez maintenant</button></div>
+        </div>
+        <div class="img">
+            <img src="image/app elec9.png" alt="" >
+        </div>
+    </section>
+    <div class="container" id="product-cards">
+        <h1 class="text-center">Les Appareils Electroniques</h1>
+        <div class="row row-cols-lg-4 row-cols-md-4 row-cols-sm-2 row-cols-2" style="margin-top: 30px;">
+            <div class="col " id="bord" >
+                <div class="card  ">
+                    <img src="image/iphon13.webp" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Iphone 14 pro</h3>
+                        <p class="text-center">lorem ispam dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h4>999.00$ <a id="acheter" href="acheter.html"><span>Acheter<li class="fa-solid fa-cart-shopping"></li></span></a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="bord">
+                <div class="card">
+                    <img src="image/ipad1.webp" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Ipad</h3>
+                        <p class="text-center">lorem ispam dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h4>99.00$ <a id="acheter" href="acheter.html"><span>Acheter<li class="fa-solid fa-cart-shopping"></li></span></a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="bord" >
+                <div class="card">
+                    <img src="image/camera.png" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Camera</h3>
+                        <p class="text-center">lorem ispam dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h4>399.00$ <a id="acheter" href="acheter.html"><span>Acheter<li class="fa-solid fa-cart-shopping"></li></span></a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="bord" >
+                <div class="card">
+                    <img src="image/airpods.webp" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Airpods</h3>
+                        <p class="text-center">lorem ispam dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h4>69.00$ <a id="acheter" href="acheter.html"> <span>Acheter<li class="fa-solid fa-cart-shopping"></li></span></a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-lg-4 row-cols-md-4 row-cols-sm-2 row-cols-2" style="margin-top: 30px;">
+            <div class="col" id="bord" >
+                <div class="card">
+                    <img src="image/baffe.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Baffe</h3>
+                        <p class="text-center">lorem ispam dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h4>29.00$ <a id="acheter" href="acheter.html"><span>Acheter<li class="fa-solid fa-cart-shopping"></li></span></a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="bord">
+                <div class="card ">
+                    <img src="image/power bank.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Power Bank</h3>
+                        <p class="text-center">lorem ispam dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h4>99.50$ <a id="acheter" href="acheter.html"><span>Acheter<li class="fa-solid fa-cart-shopping"></li></span></a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="bord">
+                <div class="card">
+                    <img src="image/smart phon.png" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Smart Phon</h3>
+                        <p class="text-center">lorem ispam dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h4>895.00$ <a id="acheter" href="acheter.html"><span>Acheter<li class="fa-solid fa-cart-shopping"></li></span></a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="bord">
+                <div class="card">
+                    <img src="image/watch.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Smart Watch</h3>
+                        <p class="text-center">lorem ispam dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h4>99.00$ <a id="acheter" href="acheter.html"> <span>Acheter<li class="fa-solid fa-cart-shopping"></li></span></a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-lg-4 row-cols-md-4 row-cols-sm-2 row-cols-2" style="margin-top: 30px;">
+            <div class="col " id="bord" >
+                <div class="card  ">
+                    <img src="image/souris.png" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Gaming Mouse</h3>
+                        <p class="text-center">lorem ispam dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h4>15.00$ <a id="acheter" href="acheter.html"><span>Acheter<li class="fa-solid fa-cart-shopping"></li></span></a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="bord">
+                <div class="card">
+                    <img src="image/joysticks.webp" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Joystiks</h3>
+                        <p class="text-center">lorem ispam dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h4>19.00$ <a id="acheter" href="acheter.html"><span>Acheter<li class="fa-solid fa-cart-shopping"></li></span></a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="bord" >
+                <div class="card">
+                    <img src="image/pc gaming.webp" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">PC Gaming</h3>
+                        <p class="text-center">lorem ispam dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h4>159.00$ <a id="acheter" href="acheter.html"><span>Acheter<li class="fa-solid fa-cart-shopping"></li></span></a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="bord" >
+                <div class="card">
+                    <img src="image/monitor.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Monitor</h3>
+                        <p class="text-center">lorem ispam dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h4>99.00$ <a id="acheter" href="acheter.html"> <span>Acheter<li class="fa-solid fa-cart-shopping"></li></span></a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="other-cards">
+        <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-1">
+            <div class="col">
+                <div class="card h-75">
+                    <img src="image/laptop.webp" alt="">
+                    <div class="card-img-overlay">
+                        <h3>Meilleur Ordinateur Portable</h3>
+                        <h5>Dernière Collection</h5>
+                        <p>Jusqu'à 50% de Réduction</p>
+                        <button id="shopnow">Acheter Maintenant</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-75">
+                    <img src="image/cask.png" alt="" height="75%">
+                    <div class="card-img-overlay">
+                        <h3>Meilleur Casque de Musique</h3>
+                        <h5>Dernière Collection</h5>
+                        <p>Jusqu'à 50% de Réduction</p>
+                        <button id="shopnow">Acheter Maintenant</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="banner">
+        <div class="content">
+            <h1><span>Les Appareilles Electroménager</span><br>
+                Jusqu'à <span id="span2">50%</span> de réduction
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Lorem ipsum dolor sit amet consectetur</p>
+            <div class="btn"> <button>Achetez maintenant</button></div>
+        </div>
+        <div class="img">
+            <img src="image/banner1.png" alt="">
+        </div>
+    </section>
+    <div class="container" id="product-cards">
+        <h1 class="text-center">Les Appareilles Electroménager</h1>
+        <div class="row row-cols-lg-4 row-cols-md-4 row-cols-sm-2 row-cols-2" style="margin-top: 30px;">
+            <div class="col " id="bord" >
+                <div class="card ">
+                    <img src="image/fridge1.avif" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Fridge</h3>
+                        <p class="text-center">lorem ispam dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h4>259.00$ <a id="acheter" href="acheter.html"><span>Acheter<li class="fa-solid fa-cart-shopping"></li></span></a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="bord">
+                <div class="card">
+                    <img src="image/AC.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">AC</h3>
+                        <p class="text-center">lorem ispam dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h4>395.00$ <a id="acheter" href="acheter.html"><span>Acheter<li class="fa-solid fa-cart-shopping"></li></span></a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="bord" >
+                <div class="card">
+                    <img src="image/microwave oven.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Microwave Oven</h3>
+                        <p class="text-center">lorem ispam dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h4>200.50$ <a id="acheter" href="acheter.html"><span>Acheter<li class="fa-solid fa-cart-shopping"></li></span></a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="bord" >
+                <div class="card">
+                    <img src="image/washion.webp" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Washion Machine</h3>
+                        <p class="text-center">lorem ispam dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h4>249.00$ <a id="acheter" href="acheter.html"> <span>Acheter<li class="fa-solid fa-cart-shopping"></li></span></a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-lg-4 row-cols-md-4 row-cols-sm-2 row-cols-2" style="margin-top: 30px;">
+            <div class="col" id="bord" >
+                <div class="card">
+                    <img src="image/extrateure.webp" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Extractor</h3>
+                        <p class="text-center">lorem ispam dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h4>49.00$ <a id="acheter" href="acheter.html"><span>Acheter<li class="fa-solid fa-cart-shopping"></li></span></a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="bord">
+                <div class="card">
+                    <img src="image/tele.png" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Smart TV</h3>
+                        <p class="text-center">lorem ispam dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h4>199.00$ <a id="acheter" href="acheter.html"><span>Acheter<li class="fa-solid fa-cart-shopping"></li></span></a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="bord">
+                <div class="card">
+                    <img src="image/four1.avif" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Four</h3>
+                        <p class="text-center">lorem ispam dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h4>229.00$ <a id="acheter" href="acheter.html"><span>Acheter<li class="fa-solid fa-cart-shopping"></li></span></a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="bord">
+                <div class="card">
+                    <img src="image/pr5.webp" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Fan</h3>
+                        <p class="text-center">lorem ispam dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h4>65.00$ <a id="acheter" href="acheter.html"> <span>Acheter<li class="fa-solid fa-cart-shopping"></li></span></a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid" id="other-cards">
+        <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-1 row-cols-1">
+            <div class="col">
+                <div class="card h-75">
+                    <img src="image/gadget hom6.png" alt="">
+                    <div class="card-img-overlay">
+                        <h3> Appareilles Electroménager</h3>
+                        <h5>Dernière Collection</h5>
+                        <p>Jusqu'à 50% de Réduction</p>
+                        <button id="shopnow">Acheter Maintenant</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-75">
+                    <img src="image/cadget gam.png" alt="">
+                    <div class="card-img-overlay">
+                        <h3>Les Appareilles Pour Les Jeux</h3>
+                        <h5>Dernière Collection</h5>
+                        <p>Jusqu'à 50% de Réduction</p>
+                        <button id="shopnow">Acheter Maintenant</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-75">
+                    <img src="image/gadget elec.png" alt="" >
+                    <div class="card-img-overlay">
+                        <h3>Les Appareilles Electroniques</h3>
+                        <h5>Dernière Collection</h5>
+                        <p>Jusqu'à 50% de Réduction</p>
+                        <button id="shopnow">Acheter Maintenant</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="offer">
+        <div class="row row-cols-lg-4 row-cols-md-4 row-cols-sm-2 row-cols-2">
+            <div class="col">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h3>Shopping Gratuit</h3>
+                <p>En commande terminée 1000$</p>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-rotate-left"></i>
+                <h3>Retour Gratuit</h3>
+                <p>Dans 30 Jours</p>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-truck"></i>
+                <h3>Livraison Rapide</h3>
+                <p>Mondial</p>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <h3>Grand Choix</h3>
+                <p>Des Produits</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="newslater">
+        <div class="col col-rows-lg-2 col-rows-md-2 col-rows-sm-2 col-rows-1 ">
+            <div class="row">
+                <h2 class="text-center text-bg-warning">Abonnez-vous à Electro_Stars pour les dernières nouvelles.</h2>
+            </div>
+            <div class="row">
+                <div class="input text-center">
+                    <input type="text" placeholder="Entrer votre E-mail... " >
+                    <button id="subscribe" class="btn btn-outline" >SUBSCRIBE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row row-cols-lg-4 row-cols-md-4 row-cols-sm-2 row-cols-1">
+                    <div class="col footer-contact">
+                        <h4><img src="image/starshop.avif" alt="" width="30"> Electro-Stars</h4>
+                        <h5>Ouleid Taima</h5>
+                        <h5>Agadir</h5>
+                        <h5>Maroc</h5>
+                        <strong>Téléphone :</strong> +000000000000 <br>
+                        <strong>E-mail :</strong> Electro-Stars36@gmail.com
+                    </div>
+                    <div class="col footer-links">
+                        <h4>Nos Réseaux Sociaux</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                    <div class="col footer-links ">
+                        <h4> Liens utiles</h4>
+                        <ul>
+                            <li><a href="#">Accueil</a></li>
+                            <li><a href="#">A-propos</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Coditions des services</a></li>
+                            <li><a href="#">Politique de confidentialité</a></li>
+                        </ul>
+                    </div>
+                    <div class="col footer-links">
+                       <h4>Notre Services</h4>
+                       <ul>
+                            <li><a href="#">Les Appareilles Electroniques</a></li>
+                            <li><a href="#">Les Appareilles Pour Les Jeux</a></li>
+                            <li><a href="#">Appareilles Electroménager</a></li>
+                       </ul>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+                <div class="row">  
+                    <div class="copyright">
+                        &copy;Copyright <strong><span>Electro-Stars</span></strong> All Rights Reserved
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="credits">
+                        Designed by <span>ABDELALI_MK</span>
+                    </div>
+                </div>
+        </div>
+    </footer>
+   <a href="#" class="arrow"><i><img src="image/arrow.png" alt="" width="50px"></i></a>
+
+
+
+
+
+
+
+
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="all.min.js"></script>
+</body>
+</html>
